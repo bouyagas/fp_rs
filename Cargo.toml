@@ -1,0 +1,24 @@
+[package]
+name = "fp_rs"
+version = "0.1.0"
+edition = "2021"
+description = "Typed functional programming utilities and macros for Rust — pipe, compose, do-notation, and FP helpers inspired by fp-ts, Ramda, and Lodash"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/bouyagas/fp_rs"
+documentation = "https://docs.rs/fp_rs"
+readme = "README.md"
+keywords = ["functional", "pipe", "compose", "macro", "fp", "ramda", "lodash"]
+categories = ["development-tools", "algorithms"]
+rust-version = "1.70"
+
+[lib]
+path = "src/lib.rs"
+
+[features]
+default = []
+# Future: "lodash" for debounce/throttle/memoize, "async" for async pipe/try_
+
+[dependencies]
+
+[dev-dependencies]
+trybuild = "1.0"
